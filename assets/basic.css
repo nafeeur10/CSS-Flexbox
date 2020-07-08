@@ -1,8 +1,26 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 .flex-container {
     background-color: bisque;
+    padding: 2rem;
 }
 
 .flex-container > div {
     padding: 2rem;
     background-color: gainsboro;
+    border: 1px solid #12AB12;
 }
