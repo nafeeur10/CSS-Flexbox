@@ -1,0 +1,8 @@
+.flex-container {
+    background-color: bisque;
+}
+
+.flex-container > div {
+    padding: 2rem;
+    background-color: gainsboro;
+}
