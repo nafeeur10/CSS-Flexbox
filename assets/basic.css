@@ -19,8 +19,10 @@ tr:nth-child(even) {
     padding: 2rem;
 }
 
-.flex-container > div {
-    padding: 2rem;
-    background-color: gainsboro;
-    border: 1px solid #12AB12;
+.flex-container > *:nth-child(odd) {
+    background-color: #26A69A;
+}
+
+.flex-container > *:nth-child(even) {
+    background-color: #c6a4c7;
 }
